@@ -1,0 +1,634 @@
+<!DOCTYPE HTML>
+ <html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Grand Memories Resort And Spa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=|Roboto+Sans:400,700|Playfair+Display:400,700">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    
+    <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+    <link rel="icon" href="images/logogrand-removebg-preview.png">
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+    <header class="site-header js-site-header">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-6 col-lg-4 site-logo" data-aos="fade">
+            <a href="index.html">
+                <img src="images/logogrand-removebg-preview.png" alt="Logo" class="img-fluid" style="max-height: 50px; margin-right: 10px;">
+                Grand Memories    
+            </a>
+        </div>
+        
+          <div class="col-6 col-lg-8">
+
+
+            <div class="site-menu-toggle js-site-menu-toggle"  data-aos="fade">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <!-- END menu-toggle -->
+
+            <div class="site-navbar js-site-navbar">
+              <nav role="navigation">
+                <div class="container">
+                  <div class="row full-height align-items-center">
+                    <div class="col-md-6 mx-auto">
+                      <ul class="list-unstyled menu">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <!-- <li><a href="events.html">Events</a></li> -->
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- END head -->
+
+    <section class="site-hero overlay" style="background-image: url(images/greatgreenscene.JPG)" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row site-hero-inner justify-content-center align-items-center">
+          <div class="col-md-10 text-center" data-aos="fade-up">
+            <span class="custom-caption text-uppercase text-white d-block  mb-3">Welcome To 5 <span class="fa fa-star text-primary"></span>   Hotel</span>
+            <h1 class="heading">A Place where luxury meets Comfort</h1>
+          </div>
+        </div>
+      </div>
+
+      <a class="mouse smoothscroll" href="#next">
+        <div class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </div>
+      </a>
+    </section>
+    <!-- END section -->
+
+    <section class="section bg-light pb-0"  >
+      <div class="container">
+       
+        <div class="row check-availabilty" id="next">
+          <div class="block-32" data-aos="fade-up" data-aos-offset="-200">
+
+            <form action="#">
+              <div class="row">
+                <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
+                  <label for="checkin_date" class="font-weight-bold text-black">Check In</label>
+                  <div class="field-icon-wrap">
+                    <div class="icon"><span class="icon-calendar"></span></div>
+                    <input type="text" id="checkin_date" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3 mb-lg-0 col-lg-3">
+                  <label for="checkout_date" class="font-weight-bold text-black">Check Out</label>
+                  <div class="field-icon-wrap">
+                    <div class="icon"><span class="icon-calendar"></span></div>
+                    <input type="text" id="checkout_date" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3 mb-md-0 col-lg-3">
+                  <div class="row">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <label for="adults" class="font-weight-bold text-black">Adults</label>
+                      <div class="field-icon-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="" id="adults" class="form-control">
+                          <option value="">1</option>
+                          <option value="">2</option>
+                          <option value="">3</option>
+                          <option value="">4+</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <label for="children" class="font-weight-bold text-black">Children</label>
+                      <div class="field-icon-wrap">
+                        <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                        <select name="" id="children" class="form-control">
+                          <option value="">1</option>
+                          <option value="">2</option>
+                          <option value="">3</option>
+                          <option value="">4+</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-3 align-self-end">
+                  <button class="btn btn-primary btn-block text-white">Check Availabilty</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-12 col-lg-7 ml-auto order-lg-2 position-relative mb-5" data-aos="fade-up">
+            <figure class="img-absolute">
+              <img src="images/food-1.jpg" alt="pic" class="img-fluid">
+            </figure>
+            <img src="images/img_1.jpg" alt="pic" class="img-fluid rounded">
+          </div>
+          <div class="col-md-12 col-lg-4 order-lg-1" data-aos="fade-up">
+            <h2 class="heading">Welcome!</h2>
+            <p class="mb-4">Escape to Grand Memories Resort, a hidden gem surrounded by breathtaking landscapes and tranquil settings. Indulge in luxurious amenities, world-class dining, and unforgettable experiences, all crafted to create lasting memories in paradise.</p>
+
+            <p><a href="#" class="btn btn-primary text-white py-2 mr-3">Learn More</a> <span class="mr-3 font-family-serif"><em>or</em></span> <a href="https://vimeo.com/channels/staffpicks/93951774"  data-fancybox class="text-uppercase letter-spacing-1">See video</a></p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-7">
+            <h2 class="heading" data-aos="fade-up">Rooms & Suites</h2>
+            <p data-aos="fade-up" data-aos-delay="100">At Grand Memories Resort, our Rooms & Suites offer a perfect blend of comfort and elegance. Whether you’re looking for a romantic getaway or a family retreat, each room is designed to provide a peaceful escape with stunning views, premium amenities, and exceptional service.</p>
+        </div>
+        
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <a href="#" class="room">
+              <figure class="img-wrap">
+                <img src="images/img_1.jpg" alt="Free website template" class="img-fluid mb-3">
+              </figure>
+              <div class="p-3 text-center room-info">
+                <h2>Single Room</h2>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <a href="#" class="room">
+              <figure class="img-wrap">
+                <img src="images/img_2.jpg" alt="Free website template" class="img-fluid mb-3">
+              </figure>
+              <div class="p-3 text-center room-info">
+                <h2>Family Room</h2>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <a href="#" class="room">
+              <figure class="img-wrap">
+                <img src="images/img_3.jpg" alt="Free website template" class="img-fluid mb-3">
+              </figure>
+              <div class="p-3 text-center room-info">
+                <h2>Presidential Room</h2>
+              </div>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    
+    
+    <section class="section slider-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-md-7">
+              <h2 class="heading" data-aos="fade-up">Gallery</h2>
+              <p data-aos="fade-up" data-aos-delay="100">Explore the beauty of Grand Memories Resort through our gallery. From stunning poolside views to elegant rooms and relaxing lounges, experience a visual tour of our luxurious facilities, designed to provide you with the ultimate retreat.</p>
+          </div>
+      </div>
+      
+        <div class="row">
+          <div class="col-md-12">
+            <div class="home-slider major-caousel owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
+              <div class="slider-item">
+                <a href="images/slider-1.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/awesomegate.JPG" alt="pic" class="img-fluid"></a>
+              </div>
+              <div class="slider-item">
+                <a href="images/slider-2.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/greengarden.JPG" alt="pic" class="img-fluid"></a>
+              </div>
+              <div class="slider-item">
+                <a href="images/slider-3.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/greatgreenscene.JPG" alt="pic" class="img-fluid"></a>
+              </div>
+              <div class="slider-item">
+                <a href="images/slider-4.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/fountain.JPG" alt="pic" class="img-fluid"></a>
+              </div>
+              <div class="slider-item">
+                <a href="images/slider-5.jpg" data-fancybox="images" data-caption="Caption for this image"><img src="images/IMG_3773.JPG" alt="pic" class="img-fluid"></a>
+              </div>
+            </div>
+            <!-- END slider -->
+          </div>
+        
+        </div>
+      </div>
+    </section>
+    <!-- END section -->
+    
+    <section class="section bg-image overlay" style="background-image: url('images/darkroom.jpg');">
+      <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-md-7">
+                <h2 class="heading text-white" data-aos="fade">Explore Our Resort Experiences</h2>
+                <p class="text-white" data-aos="fade" data-aos-delay="100">At Grand Memories Resort, we offer a diverse range of experiences designed to make your stay unforgettable. Whether you're here to relax, explore, or indulge, our variety of activities and services will ensure you create memories that last a lifetime.</p>
+            </div>
+        </div>
+        <div class="resort-tabs" data-aos="fade">
+            <ul class="nav nav-tabs mb-5" id="experienceTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active letter-spacing-2" id="spa-tab" data-toggle="tab" href="#spa" role="tab" aria-controls="spa" aria-selected="true">Wellness & Spa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letter-spacing-2" id="adventure-tab" data-toggle="tab" href="#adventure" role="tab" aria-controls="adventure" aria-selected="false">Adventure Activities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letter-spacing-2" id="cultural-tab" data-toggle="tab" href="#cultural" role="tab" aria-controls="cultural" aria-selected="false">Cultural Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link letter-spacing-2" id="dining-tab" data-toggle="tab" href="#dining" role="tab" aria-controls="dining" aria-selected="false">Dining & Entertainment</a>
+                </li>
+            </ul>
+            <div class="tab-content py-5" id="experienceTabContent">
+                <!-- Wellness & Spa Tab -->
+                <div class="tab-pane fade show active text-left" id="spa" role="tabpanel" aria-labelledby="spa-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Signature Spa Treatments</h3>
+                                <p class="text-white text-opacity-7">Relax and rejuvenate with our signature massages and spa treatments, designed to soothe your body and mind.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Couples' Massage</h3>
+                                <p class="text-white text-opacity-7">Enjoy a peaceful and intimate experience with a luxurious couples' massage, perfect for unwinding together.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Facial Therapy</h3>
+                                <p class="text-white text-opacity-7">Indulge in a soothing facial to leave your skin glowing, refreshed, and deeply nourished.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Aromatherapy</h3>
+                                <p class="text-white text-opacity-7">Experience the healing power of aromatherapy with custom essential oil blends tailored to your needs.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Steam Room & Sauna</h3>
+                                <p class="text-white text-opacity-7">Relax in our steam room or sauna for ultimate detoxification and muscle relaxation.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Private Spa Suite</h3>
+                                <p class="text-white text-opacity-7">Indulge in a private spa suite, where you can enjoy personalized treatments in a serene and intimate setting.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- .tab-pane -->
+    
+                <!-- Adventure Activities Tab -->
+                <div class="tab-pane fade text-left" id="adventure" role="tabpanel" aria-labelledby="adventure-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Water Sports</h3>
+                                <p class="text-white text-opacity-7">Get your adrenaline pumping with thrilling water activities like jet skiing, wakeboarding, and parasailing.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Mountain Trekking</h3>
+                                <p class="text-white text-opacity-7">Embark on a scenic mountain trek, offering breathtaking views and a chance to connect with nature.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Zip Line Adventure</h3>
+                                <p class="text-white text-opacity-7">Soar through the trees on our exhilarating zip line course for a truly unforgettable experience.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Safari Tours</h3>
+                                <p class="text-white text-opacity-7">Discover the beauty of the local wildlife with our guided safari tours through lush landscapes and wildlife reserves.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Cycling Expeditions</h3>
+                                <p class="text-white text-opacity-7">Explore scenic trails and discover hidden gems on a guided cycling expedition tailored to your fitness level.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Horseback Riding</h3>
+                                <p class="text-white text-opacity-7">Experience the serenity of nature on horseback with guided rides through picturesque landscapes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- .tab-pane -->
+    
+                <!-- Cultural Experiences Tab -->
+                <div class="tab-pane fade text-left" id="cultural" role="tabpanel" aria-labelledby="cultural-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Traditional Dance & Music</h3>
+                                <p class="text-white text-opacity-7">Enjoy live performances of traditional music and dance that reflect the rich cultural heritage of the region.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Cultural Cooking Classes</h3>
+                                <p class="text-white text-opacity-7">Learn to prepare local delicacies in a fun and interactive cooking class, guided by expert chefs.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Craft Market Tours</h3>
+                                <p class="text-white text-opacity-7">Visit local craft markets and discover handmade treasures, perfect for souvenirs and gifts.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Cultural Village Visits</h3>
+                                <p class="text-white text-opacity-7">Experience the authentic village life and interact with locals to understand their traditions and customs.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Art Exhibitions</h3>
+                                <p class="text-white text-opacity-7">Admire the works of talented local artists displayed in our on-site gallery.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Cultural Storytelling</h3>
+                                <p class="text-white text-opacity-7">Sit by the campfire and enjoy captivating stories passed down through generations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- .tab-pane -->
+    
+                <!-- Dining & Entertainment Tab -->
+                <div class="tab-pane fade text-left" id="dining" role="tabpanel" aria-labelledby="dining-tab">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Beachfront Dining</h3>
+                                <p class="text-white text-opacity-7">Enjoy exquisite meals with a stunning view of the ocean, providing a perfect setting for any occasion.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Private Candlelight Dinner</h3>
+                                <p class="text-white text-opacity-7">Indulge in a romantic, private candlelit dinner, tailored to your preferences in a secluded setting.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Themed Dinner Nights</h3>
+                                <p class="text-white text-opacity-7">Join us for unique themed dinners, featuring gourmet cuisine and live entertainment from around the world.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Poolside Bar</h3>
+                                <p class="text-white text-opacity-7">Relax by the pool with refreshing cocktails and light bites served throughout the day.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Live Music Performances</h3>
+                                <p class="text-white text-opacity-7">Enjoy nightly performances by local musicians, creating a vibrant atmosphere for guests.</p>
+                            </div>
+                            <div class="experience-item mb-5">
+                                <h3 class="text-white">Sunset Happy Hour</h3>
+                                <p class="text-white text-opacity-7">Unwind with a cocktail as the sun sets over the horizon, marking the perfect end to a day of adventures.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- .tab-pane -->
+            </div>
+        </div>
+    </div>
+  </section>
+    
+    <!-- END section -->
+    <section class="section highlights-section">
+      <div class="container">
+          <div class="row justify-content-center text-center mb-5">
+              <div class="col-md-7">
+                  <h2 class="heading" data-aos="fade-up">Our Highlights</h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="js-carousel-2 owl-carousel mb-5" data-aos="fade-up" data-aos-delay="200">
+                  
+                <div class="highlight-item text-center slider-item">
+                  <div class="highlight-image mb-3">
+                      <img src="images/willappear.JPG" alt="Grand Memories" class="rounded-circle mx-auto">
+                  </div>
+                  <h4 class="highlight-title">Grand Memories</h4>
+                  <p>Relive unforgettable moments and create new ones in an environment filled with joy, laughter, and lasting memories.</p>
+              </div>
+              
+  
+                  <div class="highlight-item text-center slider-item">
+                      <div class="highlight-image mb-3">
+                          <img src="images/swimmingpool.jpg" alt="pic" class="rounded-circle mx-auto">
+                      </div>
+                      <h4 class="highlight-title">Adventure Tours</h4>
+                      <p>Explore the island’s hidden gems with our guided tours, featuring hiking, kayaking, and more!</p>
+                  </div>
+  
+                  <div class="highlight-item text-center slider-item">
+                      <div class="highlight-image mb-3">
+                          <img src="images/verynicename.JPG" alt="pic" class="rounded-circle mx-auto">
+                      </div>
+                      <h4 class="highlight-title">Cultural Immersion</h4>
+                      <p>Experience the local culture through traditional performances, art exhibitions, and local cuisine tastings.</p>
+                  </div>
+  
+                  <div class="highlight-item text-center slider-item">
+                      <div class="highlight-image mb-3">
+                          <img src="images/spa.jpg" alt="pic" class="rounded-circle mx-auto">
+                      </div>
+                      <h4 class="highlight-title">Spa and Wellness</h4>
+                      <p>Indulge in a relaxing spa experience, with treatments designed to rejuvenate and refresh your mind and body.</p>
+                  </div>
+  
+                  <div class="highlight-item text-center slider-item">
+                      <div class="highlight-image mb-3">
+                          <img src="images/ugali.png" alt="pic" class="rounded-circle mx-auto">
+                      </div>
+                      <h4 class="highlight-title">Gastronomic Delights</h4>
+                      <p>Savor gourmet meals made from fresh, local ingredients in our beachfront restaurant with panoramic views.</p>
+                  </div>
+  
+                  <div class="highlight-item text-center slider-item">
+                      <div class="highlight-image mb-3">
+                          <img src="images/dj.jpeg" alt="pic" class="rounded-circle mx-auto">
+                      </div>
+                      <h4 class="highlight-title">Nightlife and Entertainment</h4>
+                      <p>Experience the vibrant nightlife with live music, DJ performances, and themed events that keep the energy high.</p>
+                  </div>
+  
+              </div>
+              <!-- END slider -->
+          </div>
+      </div>
+  </section>
+  
+  <section class="section resort-highlights bg-light">
+    <div class="container">
+        <div class="row justify-content-center text-center mb-5">
+            <div class="col-md-7">
+                <h2 class="heading" data-aos="fade-up">Grand Memories Resort Highlights</h2>
+                <p data-aos="fade-up">Discover the ultimate getaway experience at Grand Memories Resort. Whether you're seeking adventure or relaxation, our resort offers unforgettable moments for all.</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Highlight 1: Relaxation -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="media media-custom d-block mb-4 h-100 flex-column">
+                    <a href="#" class="mb-4 d-block"><img src="images/spa.jpg" alt="Spa" class="img-fluid"></a>
+                    <div class="media-body mt-auto">
+                        <h2 class="mt-0 mb-3"><a href="#">Luxurious Spa & Wellness Center</a></h2>
+                        <p>Indulge in a rejuvenating spa experience. Our expert therapists offer a variety of treatments designed to relax and refresh your body and mind.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlight 2: Adventure -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="media media-custom d-block mb-4 h-100 flex-column">
+                    <a href="#" class="mb-4 d-block"><img src="images/swimo.jpg" alt="Adventure" class="img-fluid"></a>
+                    <div class="media-body mt-auto">
+                        <h2 class="mt-0 mb-3"><a href="#">Relaxing Poolside Retreats</a></h2>
+                        <p>Unwind by our serene poolside, surrounded by lush greenery and breathtaking views. Enjoy refreshing cocktails, comfortable loungers, and a tranquil atmosphere designed for pure relaxation.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Highlight 3: Dining Experience -->
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="media media-custom d-block mb-4 h-100 flex-column">
+                    <a href="#" class="mb-4 d-block"><img src="images/luxuriousdining.JPG" alt="Dining" class="img-fluid"></a>
+                    <div class="media-body mt-auto">
+                        <h2 class="mt-0 mb-3"><a href="#">Exquisite Dining Experience</a></h2>
+                        <p>Experience world-class cuisine with stunning views. Our chefs use fresh local ingredients to craft unforgettable meals, catering to all tastes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="section bg-image overlay" style="background-image: url('images/IMG_3727.JPG');">
+        <div class="container" >
+          <div class="row align-items-center">
+            <div class="col-12 col-md-6 text-center mb-4 mb-md-0 text-md-left" data-aos="fade-up">
+              <h2 class="text-white font-weight-bold">A Best Place To Stay. Reserve Now!</h2>
+            </div>
+            <div class="col-12 col-md-6 text-center text-md-right" data-aos="fade-up" data-aos-delay="200">
+              <a href="reservation.html" class="btn btn-outline-white-primary py-3 text-white px-5">Reserve Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="section footer-section">
+        <div class="container">
+            <div class="row mb-4">
+                <!-- About Us & Rooms Links -->
+                <div class="col-md-3 mb-5">
+                    <ul class="list-unstyled link">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="rooms.html">Our Rooms & Suites</a></li>
+                        <li><a href="facilities.html">Resort Facilities</a></li>
+                        <li><a href="dining.html">Dining</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Highlights & Activities Links -->
+                <div class="col-md-3 mb-5">
+                    <ul class="list-unstyled link">
+                        <li><a href="activities.html">Activities & Adventures</a></li>
+                        <li><a href="spa.html">Spa & Wellness</a></li>
+                        <li><a href="events.html">Events & Packages</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Information -->
+                <div class="col-md-3 mb-5 pr-md-5 contact-info">
+                    <p><span class="d-block"><span class="ion-ios-location h5 mr-3 text-primary"></span>Address:</span> <span> Maili Saba, Nakuru, Kenya</span></p>
+                    <p><span class="d-block"><span class="ion-ios-telephone h5 mr-3 text-primary"></span>Phone:</span> <span> (+254) 712 345 678</span></p>
+                    <p><span class="d-block"><span class="ion-ios-email h5 mr-3 text-primary"></span>Email:</span> <span> grandmemoriesrs@gmail.com</span></p>
+                </div>
+    
+                <!-- Newsletter Subscription -->
+                <div class="col-md-3 mb-5">
+                    <p>Sign up for our exclusive offers and updates</p>
+                    <form action="#" class="footer-newsletter">
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Enter your email...">
+                            <button type="submit" class="btn"><span class="fa fa-paper-plane"></span></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    
+            <!-- Google Map iframe (small size) -->
+            <div class="row mb-4">
+                <div class="col-md-12">
+                  <h5 class="text-danger">Find Us Here</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254460.0172072649!2d35.79752824659768!3d-0.3318596446723705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182c21e607c45993%3A0x33f45039c6d8b4fa!2sMaili%20Saba%2C%20Nakuru%2C%20Kenya!5e0!3m2!1sen!2sus!4v1670921990755!5m2!1sen!2sus" 
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+    
+            <!-- Footer Bottom Row with Copyright and Social Media -->
+            <div class="row pt-5">
+                <p class="col-md-6 text-left">
+                    &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Grand Memories Resort. Designed with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Synergy</a>
+                </p>
+                
+                <p class="col-md-6 text-right social">
+                    <a href="https://www.tripadvisor.com" target="_blank"><span class="fa fa-tripadvisor"></span></a>
+                    <a href="https://www.facebook.com/grandmemoriesresort" target="_blank"><span class="fa fa-facebook"></span></a>
+                    <a href="https://twitter.com/grandmemoriesresort" target="_blank"><span class="fa fa-twitter"></span></a>
+                    <a href="https://www.linkedin.com/company/grandmemoriesresort" target="_blank"><span class="fa fa-linkedin"></span></a>
+                    <a href="https://vimeo.com/grandmemoriesresort" target="_blank"><span class="fa fa-vimeo"></span></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    
+    
+    <script src="js/aos.js"></script>
+    
+    <script src="js/bootstrap-datepicker.js"></script> 
+    <script src="js/jquery.timepicker.min.js"></script> 
+
+    
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
